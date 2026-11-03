@@ -1,0 +1,15 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+# Core numerical and computer-vision dependencies
+numpy==2.2.3
+opencv-python==4.13.0
+scipy==1.16.1
+
+# YOLOv8 model loading, PyTorch inference, and ONNX export
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+ultralytics==8.4.50
+onnx==1.23.2
+
+# ONNX Runtime with CUDA, TensorRT, and CPU execution providers
+onnxruntime-gpu==1.31.1

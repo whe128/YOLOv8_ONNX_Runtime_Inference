@@ -1,0 +1,30 @@
+# CMake build output
+/build/
+
+# Local project configuration
+/.vscode/
+/CMakeUserPresets.json
+/.env
+/.env.*
+!.env.example
+
+# Local outputs and runtime data
+/outputs/
+/runs/
+/yolo_record.txt
+/onnxruntime_profile_*.json
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Native build artifacts
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
