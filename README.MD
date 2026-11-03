@@ -1,8 +1,8 @@
 # YOLOv8 ONNX Runtime Inference
+https://github.com/user-attachments/assets/ead40b2d-a201-431d-b860-43ef52df7549
 
 This project demonstrates an end-to-end edge-AI deployment workflow for a
 YOLOv8 object-detection model:
-
 1. Export a PyTorch YOLOv8 model to ONNX.
 2. Run ONNX inference with ONNX Runtime on CPU or CUDA.
 3. Implement image preprocessing and YOLO postprocessing with OpenCV.
