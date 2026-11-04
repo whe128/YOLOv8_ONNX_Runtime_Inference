@@ -1,0 +1,22 @@
+yolo
+
+pytorch Inference time CPU: 83 ms
+pytorch Inference time cuda 8.7ms
+
+
+python + CPU mem  + cpu inference 	48.69ms
+python + CPU mem  + cuda inference 	9.92ms
+python + CPU mem  + cuda inference 	8.99ms
+
+
+
+
+C++ 	+ CPU mem   + cpu inference  	50.2ms
+C++ 	+ CPU mem   + cuda inference 	9.8ms
+C++	    + cuda mem  + cuda inference    8.37ms
+
+
+python stream：		    20~30ms
+python stream Reid	 	500~700ms	B,  C, H, W-> B, 512
+
+C++			            14~17ms
